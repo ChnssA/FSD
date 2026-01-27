@@ -1,5 +1,5 @@
 # FSD
-  [webpage1.aml25010](/https://chnssa.github.io/FSD--personal-profile/)
+  [webpage1.aml25010]
 
 ├── index.html          
 │   ├── images/
@@ -10,3 +10,4 @@
 #TECH STACK USED :[Front End]
 1.HTML5 (fOR Structure)
 2.CSS3 (Internal CSS for Presentation)
+https://chnssa.github.io/FSD--personal-profile/
