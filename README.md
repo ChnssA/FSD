@@ -11,7 +11,6 @@
 1.HTML5 (fOR Structure)
 2.CSS3 (Internal CSS for Presentation)
 https://chnssa.github.io/FSD--personal-profile/
-
 webpage2.aml25010]
 
 ├── index.html
