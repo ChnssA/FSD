@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>q4</title>
+</head>
+<body>
+    <h3>Array Elements using Loop</h3>
+    <p>Output:</p>
+    <div id="result"></div>
+
+    <script>
+        let arr = [10, 20, 30, 40, 50];
+        let output = "";
+        for (let i = 0; i < arr.length; i++) {
+            console.log(arr[i]); 
+            output += arr[i] + "<br>"; 
+        }
+        document.getElementById("result").innerHTML = output;
+    </script>
+</body>
+</html>

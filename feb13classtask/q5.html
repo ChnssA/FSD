@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>q5</title>
+</head>
+<body>
+    <h3>Even and Odd Number Classification</h3>
+    <p><strong>Output:</strong></p>
+    <div id="result"></div>
+    <script>
+        let arr = [10, 23, 30, 45, 50, 67, 80]; 
+        let evenNumbers = [];
+        let oddNumbers = [];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                evenNumbers.push(arr[i]); 
+            } else {
+                oddNumbers.push(arr[i]); 
+            }
+        }
+        let message = "<strong>Even Numbers:</strong> " + evenNumbers.join(", ") + 
+                      "<br><em>Total Even Count: " + evenNumbers.length + "</em>" +
+                      "<br><br>" +
+                      "<strong>Odd Numbers:</strong> " + oddNumbers.join(", ") + 
+                      "<br><em>Total Odd Count: " + oddNumbers.length + "</em>";
+
+        console.log("Evens:", evenNumbers);
+        console.log("Odds:", oddNumbers);
+
+        document.getElementById("result").innerHTML = message;
+    </script>
+</body>
+</html>

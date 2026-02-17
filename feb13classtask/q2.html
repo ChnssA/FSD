@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>q2</title>
+</head>
+<body>
+    <h3> Positive, Negative, or Zero</h3>
+    <p>Output:</p>
+    <h3 id="result"></h3>
+
+    <script>
+        let num = -5;
+
+        let message = "";
+        if (num > 0) {
+            message = "Number is Positive";
+        }
+        else if (num < 0) {
+            message = "Number is Negative";
+        }
+        else {
+            message = "Number is Zero";
+        }
+        console.log(message);
+        document.getElementById("result").innerHTML = message;
+    </script>
+
+</body>
+</html>
